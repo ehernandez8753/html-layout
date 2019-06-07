@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: white;
+}
+
+.info-text{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    width: 80%;
+    margin: auto 0 auto 0;
+}
+
+.grey-rect{
+    width: 100%;
+    height: 15%;
+    background: lightgray;
+}
+
+.white-rect{
+    width: 100%;
+    height: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blue-rect{
+    width: 100%;
+    height: 15%;
+    background: rgb(68, 146, 194);
+}
+
+.blue-square{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 7%;
+    height: 60%; 
+    background: rgb(68, 146, 194);
+    display: inline-block;
+}
+
+.cyan-rect{
+    width: 100%;
+    height: 15%;
+    background: cyan;
+}
+
+.lime-rect{
+    width: 100%;
+    height: 15%;
+    background: rgb(193, 235, 77);
+}
+
+.yellow-rect{
+    width: 100%;
+    height: 15%;
+    background: rgb(255, 238, 0)
+}
